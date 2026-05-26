@@ -1,0 +1,16 @@
+.avatar {
+	position: relative;
+	background: black;
+	border-radius: 9999rem;
+}
+
+.avatar-image {
+	border-radius: 9999rem;
+}
+
+.avatar-overlay {
+	position: absolute;
+
+	pointer-events: none;
+	transform: translate(-10%, -8%);
+}
